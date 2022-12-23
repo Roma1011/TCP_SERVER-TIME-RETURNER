@@ -20,7 +20,7 @@ namespace TCP_IP_SERVER_TESTER
 
 		static void Main(string[] args)
 		{
-			
+
 		}
 		// Server Working Start here
 		private static void SetupServer()
@@ -28,6 +28,13 @@ namespace TCP_IP_SERVER_TESTER
 			Console.WriteLine("Setting up server...");
 			_serverSocket.Bind(new IPEndPoint(IPAddress.Any, PORT));
 			_serverSocket.Listen(5);
+			_serverSocket.BeginAccept(AcceptCallBack, null);
+			Console.WriteLine("Server setup complete");
+		}
+		//Accept connections
+		private static void AcceptCallBack(IAsyncResult ar)
+		{
+
 		}
 	}
 }
