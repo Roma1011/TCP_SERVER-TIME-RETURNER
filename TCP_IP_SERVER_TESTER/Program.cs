@@ -81,6 +81,10 @@ namespace TCP_IP_SERVER_TESTER
 			{
 				Exit(current);
 			}
+			else
+			{
+				Anotherway(current);
+			}
 		}
 		private static void SendTimeforClient(Socket CurSocket)
 		{
@@ -98,5 +102,13 @@ namespace TCP_IP_SERVER_TESTER
 			Console.WriteLine("Client disconnected");
 			return;
 		}
+		private static void Anotherway(Socket CurSocket)
+		{
+			Console.WriteLine("Text is an invalid request");
+			byte[] data = Encoding.ASCII.GetBytes("Invalid request");
+			CurSocket.Send(data);
+			Console.WriteLine("Warning Sent");
+		}
+
 	}
 }
