@@ -49,9 +49,24 @@ namespace TCP_IP_SERVER_TESTER
 			socket.BeginReceive(_buffer, 0, BUFFER_SIZE, SocketFlags.None, ReceiveCallback, socket);
 			Console.WriteLine("Client connected, waiting for request...");
 			_serverSocket.BeginAccept(AcceptCallBack, null);
-			CloseAllSockets();
+		}
+		private static void ReceiveCallback(IAsyncResult ar)
+		{
+			Socket current = (Socket)ar.AsyncState;
+			int received;
 
-
+			try
+			{
+				received = current.EndReceive(ar);
+			}
+			catch (SocketException)
+			{
+				Console.WriteLine("Client forcefully disconnected");
+				// Don't shutdown because the socket may be disposed and its disconnected anyway.
+				current.Close();
+				_clientsocket.Remove(current);
+				return;
+			}
 		}
 	}
 }
