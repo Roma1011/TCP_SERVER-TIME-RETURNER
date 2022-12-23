@@ -73,7 +73,17 @@ namespace TCP_IP_SERVER_TESTER
 			string text = Encoding.ASCII.GetString(recBuf);
 			Console.WriteLine("Received Text: " + text);
 
-
+			if (text.ToLower() == "get time") // Client requested time
+			{
+				SendTimeforClient(current);
+			}
+		}
+		private static void SendTimeforClient(Socket CurSocket)
+		{
+			Console.WriteLine("Text is a get time request");
+			byte[] data = Encoding.ASCII.GetBytes(DateTime.Now.ToLongTimeString());
+			CurSocket.Send(data);
+			Console.WriteLine("Time sent to client");
 		}
 	}
 }
