@@ -1,0 +1,14 @@
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\bin\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.exe
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\bin\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.deps.json
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\bin\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.runtimeconfig.json
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\bin\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.runtimeconfig.dev.json
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\bin\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.dll
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\bin\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.pdb
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.csproj.AssemblyReference.cache
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.AssemblyInfoInputs.cache
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.AssemblyInfo.cs
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.csproj.CoreCompileInputs.cache
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.dll
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.pdb
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.genruntimeconfig.cache
