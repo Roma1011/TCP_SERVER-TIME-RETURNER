@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 
 namespace TCP_IP_SERVER_TESTER
 {
@@ -67,6 +68,12 @@ namespace TCP_IP_SERVER_TESTER
 				_clientsocket.Remove(current);
 				return;
 			}
+			byte[] recBuf = new byte[received];
+			Array.Copy(_buffer, recBuf, received);
+			string text = Encoding.ASCII.GetString(recBuf);
+			Console.WriteLine("Received Text: " + text);
+
+
 		}
 	}
 }
