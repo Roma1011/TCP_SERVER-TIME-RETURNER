@@ -77,6 +77,10 @@ namespace TCP_IP_SERVER_TESTER
 			{
 				SendTimeforClient(current);
 			}
+			else if(text.ToLower() == "exit")// Client wants to exit
+			{
+				Exit(current);
+			}
 		}
 		private static void SendTimeforClient(Socket CurSocket)
 		{
@@ -84,6 +88,15 @@ namespace TCP_IP_SERVER_TESTER
 			byte[] data = Encoding.ASCII.GetBytes(DateTime.Now.ToLongTimeString());
 			CurSocket.Send(data);
 			Console.WriteLine("Time sent to client");
+		}
+		private static void Exit(Socket CurSocket)
+		{
+			// Always Shutdown before closing
+			CurSocket.Shutdown(SocketShutdown.Both);
+			CurSocket.Close();
+			_clientsocket.Remove(CurSocket);
+			Console.WriteLine("Client disconnected");
+			return;
 		}
 	}
 }
