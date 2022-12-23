@@ -34,6 +34,23 @@ namespace TCP_IP_SERVER_TESTER
 		//Accept connections
 		private static void AcceptCallBack(IAsyncResult ar)
 		{
+			Socket socket;
+
+			try
+			{
+				socket = _serverSocket.EndAccept(ar);
+			}
+			catch (ObjectDisposedException) // I cannot seem to avoid this (on exit when properly closing sockets)
+			{
+				return;
+			}
+
+			_clientsocket.Add(socket);
+			socket.BeginReceive(_buffer, 0, BUFFER_SIZE, SocketFlags.None, ReceiveCallback, socket);
+			Console.WriteLine("Client connected, waiting for request...");
+			_serverSocket.BeginAccept(AcceptCallBack, null);
+			CloseAllSockets();
+
 
 		}
 	}
