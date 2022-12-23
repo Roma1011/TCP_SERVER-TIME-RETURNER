@@ -12,3 +12,6 @@ D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcor
 D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.dll
 D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.pdb
 D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.genruntimeconfig.cache
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\bin\Debug\netcoreapp3.1\Server.dll
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\bin\Debug\netcoreapp3.1\Server.pdb
+D:\Programing\c# .NET\TCP_SERVER_TESTER_sn\TCP_IP_SERVER_TESTER\obj\Debug\netcoreapp3.1\TCP_IP_SERVER_TESTER.csproj.CopyComplete
