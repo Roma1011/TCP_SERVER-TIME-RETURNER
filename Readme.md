@@ -6,4 +6,6 @@ WARINIG !
 When run Server, please note that the antivirus may take some time to scan, 
 and a pop-up window will pop up where you just have to confirm that the application can use the network.
 
+whan you run client tool you can send text "get time" and server reply Time  whan you need disconnect send "exit" 
+
 Encapsulation methods are protected as much as possible, code writing culture is protected.
